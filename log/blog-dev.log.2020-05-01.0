@@ -1,0 +1,101 @@
+2020-05-01 15:35:25.018  INFO 98052 --- [restartedMain] com.lzx.linblog.LinblogApplication       : Starting LinblogApplication on LAPTOP-0KV13E5B with PID 98052 (E:\IDEADemo\linblog\target\classes started by 87248 in E:\IDEADemo\linblog)
+2020-05-01 15:35:25.023  INFO 98052 --- [restartedMain] com.lzx.linblog.LinblogApplication       : The following profiles are active: dev
+2020-05-01 15:35:25.063  INFO 98052 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in E:\maven_repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-05-01 15:35:25.063  INFO 98052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-01 15:35:25.063  INFO 98052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-01 15:35:25.898  INFO 98052 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-01 15:35:26.002  INFO 98052 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97ms. Found 5 JPA repository interfaces.
+2020-05-01 15:35:26.116  WARN 98052 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lzx.linblog]' package. Please check your configuration.
+2020-05-01 15:35:26.861  INFO 98052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-01 15:35:26.869  INFO 98052 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-01 15:35:26.869  INFO 98052 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 15:35:26.977  INFO 98052 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-01 15:35:26.977  INFO 98052 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1913 ms
+2020-05-01 15:35:27.176  INFO 98052 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-01 15:35:27.234  INFO 98052 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-01 15:35:27.333  INFO 98052 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-01 15:35:27.414  INFO 98052 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-01 15:35:27.525  INFO 98052 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2020-05-01 15:35:27.531  INFO 98052 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-01 15:35:27.549  INFO 98052 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-01 15:35:28.371  INFO 98052 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-01 15:35:28.377  INFO 98052 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-01 15:35:28.399  INFO 98052 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-05-01 15:35:29.347  WARN 98052 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-01 15:35:29.581  INFO 98052 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 15:35:29.728  INFO 98052 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-05-01 15:35:30.615  INFO 98052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 15:35:30.618  INFO 98052 --- [restartedMain] com.lzx.linblog.LinblogApplication       : Started LinblogApplication in 6.086 seconds (JVM running for 7.367)
+2020-05-01 15:35:36.481  INFO 98052 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 15:35:36.481  INFO 98052 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-01 15:35:36.496  INFO 98052 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-05-01 16:42:21.145  INFO 122700 --- [restartedMain] com.lzx.linblog.LinblogApplication       : Starting LinblogApplication on LAPTOP-0KV13E5B with PID 122700 (E:\IDEADemo\linblog\target\classes started by 87248 in E:\IDEADemo\linblog)
+2020-05-01 16:42:21.155  INFO 122700 --- [restartedMain] com.lzx.linblog.LinblogApplication       : The following profiles are active: dev
+2020-05-01 16:42:21.195  INFO 122700 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in E:\maven_repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-05-01 16:42:21.195  INFO 122700 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-01 16:42:21.195  INFO 122700 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-01 16:42:21.845  INFO 122700 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-01 16:42:21.915  INFO 122700 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62ms. Found 5 JPA repository interfaces.
+2020-05-01 16:42:22.025  WARN 122700 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lzx.linblog]' package. Please check your configuration.
+2020-05-01 16:42:22.795  INFO 122700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-01 16:42:22.805  INFO 122700 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-01 16:42:22.805  INFO 122700 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 16:42:22.895  INFO 122700 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-01 16:42:22.895  INFO 122700 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1700 ms
+2020-05-01 16:42:23.065  INFO 122700 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-01 16:42:23.115  INFO 122700 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-01 16:42:23.195  INFO 122700 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-01 16:42:23.265  INFO 122700 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-01 16:42:23.375  INFO 122700 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2020-05-01 16:42:23.385  INFO 122700 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-01 16:42:23.395  INFO 122700 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-01 16:42:24.115  INFO 122700 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-01 16:42:24.125  INFO 122700 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-01 16:42:24.235  INFO 122700 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-05-01 16:42:25.225  WARN 122700 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-01 16:42:25.475  INFO 122700 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 16:42:25.575  INFO 122700 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-05-01 16:42:26.025  INFO 122700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 16:42:26.035  INFO 122700 --- [restartedMain] com.lzx.linblog.LinblogApplication       : Started LinblogApplication in 5.341 seconds (JVM running for 6.589)
+2020-05-01 16:42:29.135  INFO 122700 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 16:42:29.135  INFO 122700 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-01 16:42:29.145  INFO 122700 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-05-01 22:09:30.070  INFO 200716 --- [restartedMain] com.lzx.linblog.LinblogApplication       : Starting LinblogApplication on LAPTOP-0KV13E5B with PID 200716 (E:\IDEADemo\linblog\target\classes started by 87248 in E:\IDEADemo\linblog)
+2020-05-01 22:09:30.096  INFO 200716 --- [restartedMain] com.lzx.linblog.LinblogApplication       : The following profiles are active: dev
+2020-05-01 22:09:30.139  INFO 200716 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in E:\maven_repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/maven_repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-05-01 22:09:30.139  INFO 200716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-01 22:09:30.139  INFO 200716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-01 22:09:30.946  INFO 200716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-01 22:09:31.043  INFO 200716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90ms. Found 5 JPA repository interfaces.
+2020-05-01 22:09:31.191  WARN 200716 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lzx.linblog]' package. Please check your configuration.
+2020-05-01 22:09:31.956  INFO 200716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-01 22:09:31.966  INFO 200716 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-01 22:09:31.966  INFO 200716 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 22:09:32.076  INFO 200716 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-01 22:09:32.076  INFO 200716 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1937 ms
+2020-05-01 22:09:32.301  INFO 200716 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-01 22:09:32.356  INFO 200716 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-01 22:09:32.464  INFO 200716 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-01 22:09:32.558  INFO 200716 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-01 22:09:32.672  INFO 200716 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2020-05-01 22:09:32.678  INFO 200716 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-01 22:09:32.693  INFO 200716 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-01 22:09:33.439  INFO 200716 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-01 22:09:33.445  INFO 200716 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-01 22:09:33.477  INFO 200716 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-05-01 22:09:34.426  WARN 200716 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-01 22:09:34.635  INFO 200716 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 22:09:34.750  INFO 200716 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-05-01 22:09:35.825  INFO 200716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 22:09:35.827  INFO 200716 --- [restartedMain] com.lzx.linblog.LinblogApplication       : Started LinblogApplication in 6.262 seconds (JVM running for 7.792)
+2020-05-01 22:09:49.010  INFO 200716 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 22:09:49.010  INFO 200716 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-01 22:09:49.023  INFO 200716 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-05-01 22:09:49.166  INFO 200716 --- [http-nio-8080-exec-1] com.lzx.linblog.aspect.LogAspect         : Request:RequestLog{url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.lzx.linblog.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-05-01 22:09:49.288  WARN 200716 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-05-01 22:09:49.307  WARN 200716 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-05-01 22:09:49.317  INFO 200716 --- [http-nio-8080-exec-1] com.lzx.linblog.aspect.LogAspect         : ====doAfter=======
+2020-05-01 22:09:49.317  INFO 200716 --- [http-nio-8080-exec-1] com.lzx.linblog.aspect.LogAspect         : Result:{}index
+2020-05-01 22:09:50.415  INFO 200716 --- [http-nio-8080-exec-6] com.lzx.linblog.aspect.LogAspect         : Request:RequestLog{url='http://localhost:8080/footer/newblog', ip='127.0.0.1', classMethod='com.lzx.linblog.web.IndexController.newblogs', args=[{}]}
+2020-05-01 22:09:50.424  INFO 200716 --- [http-nio-8080-exec-6] com.lzx.linblog.aspect.LogAspect         : ====doAfter=======
+2020-05-01 22:09:50.424  INFO 200716 --- [http-nio-8080-exec-6] com.lzx.linblog.aspect.LogAspect         : Result:{}_fragments :: newblogList
